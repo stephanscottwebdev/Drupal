@@ -1,0 +1,15 @@
+name = Picknit Theme
+description = A custom theme for drupal
+core = 7.x
+
+stylesheets[all][] = styles/layout.css
+
+regions[header] = Header
+regions[help] = Help
+
+regions[featured] = Featured
+regions[content] = Content
+
+regions[footer] = Footer
+
+scripts[] = html5shiv.js
